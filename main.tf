@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
-    hostname     = "ptfe.int.radacina.xyz"
-    organization = "frankfurt-hq"
+    hostname     = "app.terraform.io"
+    organization = "popa-org"
 
     workspaces {
       name = "tags-data-test"
